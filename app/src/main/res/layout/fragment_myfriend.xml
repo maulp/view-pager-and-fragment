@@ -5,6 +5,13 @@
 <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="INI FRAGMENT TEMAN"
-    android:textSize="30sp"/>
+    android:textSize="18sp"
+    android:layout_margin="16dp"
+    android:text="List Teman"
+    android:gravity="center_horizontal"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_listMyFriends"
+        android:layout_margin="16dp"/>
 </RelativeLayout>
